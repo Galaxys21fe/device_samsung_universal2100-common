@@ -79,6 +79,10 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.5-service_64.exynos2100 \
     libsensorndkbridge
 
+# Charger
+PRODUCT_PACKAGES += \
+    charger_res_images_vendor
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.4-service
@@ -108,9 +112,8 @@ PRODUCT_PACKAGES += \
 
 # Health
 PRODUCT_PACKAGES += \
-    android.hardware.health@2.1-impl:64 \
-    android.hardware.health@2.1-service
-
+    android.hardware.health-service.samsung \
+    android.hardware.health-service.samsung-recovery
 # HIDL
 PRODUCT_PACKAGES += \
    libhidltransport \
