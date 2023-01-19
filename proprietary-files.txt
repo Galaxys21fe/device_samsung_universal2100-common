@@ -367,6 +367,8 @@ vendor/etc/init/teegris_v4.rc
 # NFC
 -vendor/lib64/ese_spi_nxp.so
 vendor/etc/libnfc-nxp.conf
+vendor/etc/nfc/libnfc-nxp_RF.conf
+system/etc/libnfc-nci.conf:vendor/etc/libnfc-nci.conf
 vendor/firmware/nfc/libsn100u_fw.so
 
 # Sensors
