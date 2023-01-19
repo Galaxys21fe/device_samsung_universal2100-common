@@ -369,10 +369,6 @@ vendor/etc/init/teegris_v4.rc
 vendor/etc/libnfc-nxp.conf
 vendor/firmware/nfc/libsn100u_fw.so
 
-# Secure Element
--vendor/bin/hw/android.hardware.secure_element@1.2-service
-vendor/etc/init/android.hardware.secure_element@1.2-service.rc
-
 # Sensors
 -vendor/lib/sensors.flicker.so
 -vendor/lib/sensors.grip.so
