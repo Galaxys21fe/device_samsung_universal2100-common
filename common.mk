@@ -70,8 +70,9 @@ PRODUCT_PACKAGES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
+    android.hardware.bluetooth@1.0-impl \
     android.hardware.bluetooth@1.1-service \
-    libbt-vendor:64
+    libbt-vendor
 
 # Camera
 PRODUCT_PACKAGES += \
